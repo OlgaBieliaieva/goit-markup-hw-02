@@ -1,16 +1,16 @@
 :root {
   --background-color-primary: #ffffff;
-  --background-color-secondary: #f5f4fa;  
+  --background-color-secondary: #f5f4fa;
   --background-color-accent: #2f303a;
   --background-color-button: #2196f3;
-  --background-color-button-active: #188CE8;
+  --background-color-button-active: #188ce8;
   --color-primary: #757575;
   --color-secondary: #212121;
   --color-accent: #2196f3;
   --color-invert: #ffffff;
   --color-logo: #000000;
   --font-family-primary: "Roboto", sans-serif;
-  --font-family-logo: "Raleway", sans-serif; 
+  --font-family-logo: "Raleway", sans-serif;
   --font-weight-primary: 400;
   --font-weight-header: 500;
   --font-weight-heading: 700;
@@ -31,39 +31,39 @@ body {
   letter-spacing: 0.03em;
 }
 .header {
-color: var(--color-secondary);
-font-weight: var(--font-weight-header);
-line-height: 1.14;
-letter-spacing: 0.02em;
+  color: var(--color-secondary);
+  font-weight: var(--font-weight-header);
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .logo-first {
   color: var(--color-accent);
   font-family: var(--font-family-logo);
   font-weight: var(--font-weight-heading);
   font-size: var(--font-size-logo);
-  line-height: 1.2; 
+  line-height: 1.2;
   text-decoration: none;
 }
 .logo-second {
   color: var(--color-logo);
 }
 .nav-list {
-  list-style-type: none;  
+  list-style-type: none;
 }
 .nav-list .current {
-  color: var(--color-accent)
+  color: var(--color-accent);
 }
 .nav-link {
   color: inherit;
   text-decoration: none;
 }
 .nav-link:hover {
-  color: var(--color-accent);  
+  color: var(--color-accent);
 }
 .nav-link:focus {
-  color: var(--color-accent);  
+  color: var(--color-accent);
 }
-.contact-list {  
+.contact-list {
   list-style-type: none;
 }
 .list-link {
@@ -88,11 +88,12 @@ letter-spacing: 0.02em;
 .hero-button {
   background-color: var(--background-color-button);
   color: var(--color-invert);
-  font-family: var(--font-family-primary);
+  font-family: inherit;
   font-weight: var(--font-weight-heading);
   font-size: var(--font-size-accent);
   line-height: 1.88;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .hero-button:hover {
   background-color: var(--background-color-button-active);
@@ -128,11 +129,11 @@ letter-spacing: 0.02em;
   color: var(--color-secondary);
   font-weight: var(--font-weight-heading);
   font-size: var(--font-size-primary);
-  line-height: 1.14;  
+  line-height: 1.14;
   text-transform: uppercase;
 }
 .benefits .item-text {
-  line-height: 1.71; 
+  line-height: 1.71;
 }
 .our-team {
   background-color: var(--background-color-secondary);
@@ -144,10 +145,10 @@ letter-spacing: 0.02em;
 }
 .memberteam-name {
   color: var(--color-secondary);
-  font-weight: var(--font-weight-header);    
+  font-weight: var(--font-weight-header);
 }
 .footer {
-  background-color: var(--background-color-accent);  
+  background-color: var(--background-color-accent);
 }
 .logo-invert {
   color: var(--color-invert);
@@ -158,19 +159,26 @@ letter-spacing: 0.02em;
 }
 .address-link {
   color: var(--color-invert);
-  text-decoration: none; 
+  text-decoration: none;
 }
 .contact-link {
-  color: rgba(255, 255, 255, 0.6);;
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+.contact-link:hover {
+  color: var(--color-accent);
+}
+.contact-link:focus {
+  color: var(--color-accent);
 }
 .filter-button {
   background-color: var(--background-color-secondary);
   color: var(--color-secondary);
-  font-family: var(--font-family-primary);
+  font-family: inherit;
   font-weight: var(--font-weight-header);
   font-size: var(--font-size-accent);
   line-height: 1.62;
+  cursor: pointer;
 }
 .filter-button:hover {
   background-color: var(--background-color-button);
@@ -192,7 +200,7 @@ letter-spacing: 0.02em;
   color: var(--color-secondary);
   font-weight: var(--font-weight-heading);
   font-size: var(--font-size-title);
-  line-height: 2.0;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .portfolio-type {

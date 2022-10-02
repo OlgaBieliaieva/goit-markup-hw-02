@@ -11,7 +11,6 @@
   --color-logo: #000000;
   --font-family-primary: "Roboto", sans-serif;
   --font-family-logo: "Raleway", sans-serif;
-  --font-weight-primary: 400;
   --font-weight-header: 500;
   --font-weight-heading: 700;
   --font-weight-hero: 900;
@@ -26,7 +25,6 @@ body {
   background-color: var(--background-color-primary);
   color: var(--color-primary);
   font-family: var(--font-family-primary);
-  font-weight: var(--font-weight-primary);
   font-size: var(--font-size-primary);
   letter-spacing: 0.03em;
 }
@@ -78,6 +76,8 @@ body {
 }
 .hero {
   background-color: var(--background-color-accent);
+}
+.hero-title {
   color: var(--color-invert);
   font-weight: var(--font-weight-hero);
   font-size: var(--font-size-hero);
@@ -140,12 +140,12 @@ body {
 }
 .memberteam-card {
   background-color: var(--background-color-primary);
-  font-size: var(--font-size-accent);
-  line-height: 1.19;
 }
 .memberteam-name {
   color: var(--color-secondary);
   font-weight: var(--font-weight-header);
+  font-size: var(--font-size-accent);
+  line-height: 1.19;
 }
 .footer {
   background-color: var(--background-color-accent);
@@ -198,7 +198,6 @@ body {
 }
 .portfolio-title {
   color: var(--color-secondary);
-  font-weight: var(--font-weight-heading);
   font-size: var(--font-size-title);
   line-height: 2;
   letter-spacing: 0.06em;
